@@ -78,6 +78,11 @@ header a:hover {
 
 #press img:hover {
 	border: 5px rgb(111,127,122) solid;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+
 }
 
 footer {
