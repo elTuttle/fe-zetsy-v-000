@@ -52,6 +52,11 @@ header a {
 
 header a:hover {
 	color: rgb(111,127,122);
+  cursor: pointer;
+  -webkit-transition: color 2s ease-out;
+  -moz-transition: color 2s ease-out;
+  -o-transition: color 2s ease-out;
+  transition: color 2s ease-out;
 }
 
 #featured img {
